@@ -1,7 +1,9 @@
+import Header from "../components/Header";
+
 const Home = () => {
   return (
     <div>
-      <p className="text-black font-mono text-3xl">HomePage</p>
+      <Header />
     </div>
   );
 };
